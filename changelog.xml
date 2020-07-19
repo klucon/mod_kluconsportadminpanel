@@ -1,0 +1,136 @@
+<changelogs>
+    <changelog>
+        <element>mod_kluconholiday</element>
+        <type>module</type>
+        <version>1.2.0</version> 
+        <security>
+            <item></item>
+        </security>
+        <fix>
+            <item></item>
+        </fix>
+        <language>
+            <item></item>
+        </language>
+        <addition>
+            <item>Psí kalendář</item>
+        </addition>
+        <change>
+            <item></item>
+        </change>
+        <remove>
+            <item></item>
+        </remove>
+        <note>
+            <item>Modul: Klucon Svátky pro Joomla 4!</item>
+        </note>
+    </changelog>
+    <changelog>
+        <element>mod_kluconholiday</element>
+        <type>module</type>
+        <version>1.1.0</version> 
+        <security>
+            <item></item>
+        </security>
+        <fix>
+            <item></item>
+        </fix>
+        <language>
+            <item></item>
+        </language>
+        <addition>
+            <item>Přidáno:</item>
+            <item>Liturgický kalendář</item>
+        </addition>
+        <change>
+            <item></item>
+        </change>
+        <remove>
+            <item></item>
+        </remove>
+        <note>
+            <item>Modul: Klucon Svátky pro Joomla 4!</item>
+        </note>
+    </changelog>
+    <changelog>
+        <element>mod_kluconholiday</element>
+        <type>module</type>
+        <version>1.0.0</version> 
+        <security>
+            <item></item>
+        </security>
+        <fix>
+            <item></item>
+        </fix>
+        <language>
+            <item></item>
+        </language>
+        <addition>
+            <item>Přidáno:</item>
+            <item>Dnešní datum</item>
+            <item>Lidový kalendář</item>
+        </addition>
+        <change>
+            <item></item>
+        </change>
+        <remove>
+            <item></item>
+        </remove>
+        <note>
+            <item>Vytvořen modul Klucon Svátky pro Joomla 4!</item>
+        </note>
+    </changelog>
+    <changelog>
+        <element>mod_kluconsportadminpanel</element>
+        <type>module</type>
+        <version>1.0.0</version> 
+        <security>
+            <item></item>
+        </security>
+        <fix>
+            <item>Fixed language after installation</item>
+        </fix>
+        <language>
+            <item></item>
+        </language>
+        <addition>
+            <item></item>
+        </addition>
+        <change>
+            <item></item>
+        </change>
+        <remove>
+            <item></item>
+        </remove>
+        <note>
+            <item></item>
+        </note>
+    </changelog>
+    <changelog>
+        <element>mod_kluconsportadminpanel</element>
+        <type>module</type>
+        <version>0.9.0</version> 
+        <security>
+            <item></item>
+        </security>
+        <fix>
+            <item></item>
+        </fix>
+        <language>
+            <item></item>
+        </language>
+        <addition>
+            <item>Added update.xml</item>
+            <item>Added changelog.xml</item>
+        </addition>
+        <change>
+            <item></item>
+        </change>
+        <remove>
+            <item></item>
+        </remove>
+        <note>
+            <item></item>
+        </note>
+    </changelog>
+</changelogs>

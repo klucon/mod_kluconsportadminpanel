@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension position="icon" type="module" version="4.0" client="administrator" method="upgrade">
+    <name>Klucon Sport Admin panel</name>
+    <creationDate>2019-12-24</creationDate>
+    <author>Ondrej Klucka</author>
+    <authorEmail>info@klucon.cz</authorEmail>
+    <authorUrl>www.klucon.cz</authorUrl>
+    <copyright>COPYRIGHT (C) 2019 Ondrej Klucka</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.1.0</version>
+    <description>MOD_KLUCONSPORTADMINPANEL_XML_DESCRIPTION</description>
+    <namespace>Joomla\Module\Kluconsportadminpanel</namespace>
+    <scriptfile>script.php</scriptfile>
+
+    <files>
+        <filename module="mod_kluconsportadminpanel">mod_kluconsportadminpanel.php</filename>
+        <folder>Helper</folder>
+        <folder>language</folder>
+        <folder>tmpl</folder>
+        <filename>changelog_mod_kluconsportadminpanel.xml</filename>
+        <filename>mod_kluconsportadminpanel.xml</filename>
+        <filename>update.xml</filename>
+    </files>
+    
+    <changelogurl>https://build.klucon.cz/changelog_mod_kluconsportadminpanel.xml</changelogurl>
+    
+    <updateservers>
+        <server type="extension" name="Klucon Updates">https://build.klucon.cz/update.xml</server>
+    </updateservers>
+    
+    <config>
+        <fields name="params" rows="2">
+            <fieldset name="basic">
+                <field
+                    name="kluconsportsporttypes"
+                    type="radio"
+                    label="MOD_KLUCONSPORTADMINPANEL_SPORTTYPES_LABEL"
+                    description="MOD_KLUCONSPORTADMINPANEL_SPORTTYPES_DESCRIPTION"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                >    
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field
+                    name="kluconsportseasons"
+                    type="radio"
+                    label="MOD_KLUCONSPORTADMINPANEL_SEASONS_LABEL"
+                    description="MOD_KLUCONSPORTADMINPANEL_SEASONS_DESCRIPTION"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                >    
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field
+                    name="kluconsportleagues"
+                    type="radio"
+                    label="MOD_KLUCONSPORTADMINPANEL_LEAGUES_LABEL"
+                    description="MOD_KLUCONSPORTADMINPANEL_LEAGUES_DESCRIPTION"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                >    
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field
+                    name="kluconsportpositions"
+                    type="radio"
+                    label="MOD_KLUCONSPORTADMINPANEL_POSITIONS_LABEL"
+                    description="MOD_KLUCONSPORTADMINPANEL_POSITIONS_DESCRIPTION"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                >    
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field
+                    name="kluconsportpersons"
+                    type="radio"
+                    label="MOD_KLUCONSPORTADMINPANEL_PERSONS_LABEL"
+                    description="MOD_KLUCONSPORTADMINPANEL_PERSONS_DESCRIPTION"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                >    
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field
+                    name="kluconsportclubs"
+                    type="radio"
+                    label="MOD_KLUCONSPORTADMINPANEL_CLUBS_LABEL"
+                    description="MOD_KLUCONSPORTADMINPANEL_CLUBS_DESCRIPTION"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                >    
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field
+                    name="kluconsportteams"
+                    type="radio"
+                    label="MOD_KLUCONSPORTADMINPANEL_TEAMS_LABEL"
+                    description="MOD_KLUCONSPORTADMINPANEL_TEAMS_DESCRIPTION"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                >    
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field
+                    name="kluconsportcalendar"
+                    type="radio"
+                    label="MOD_KLUCONSPORTADMINPANEL_CALENDAR_LABEL"
+                    description="MOD_KLUCONSPORTADMINPANEL_CALENDAR_DESCRIPTION"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                >    
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field
+                    name="kluconsportevents"
+                    type="radio"
+                    label="MOD_KLUCONSPORTADMINPANEL_EVENTS_LABEL"
+                    description="MOD_KLUCONSPORTADMINPANEL_EVENTS_DESCRIPTION"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                >   
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field
+                    name="kluconsportvenues"
+                    type="radio"
+                    label="MOD_KLUCONSPORTADMINPANEL_VENUES_LABEL"
+                    description="MOD_KLUCONSPORTADMINPANEL_VENUES_DESCRIPTION"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                >    
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>                
+                <field
+                    name="kluconsportsettings"
+                    type="radio"
+                    label="MOD_KLUCONSPORTADMINPANEL_SETTINGS_LABEL"
+                    description="MOD_KLUCONSPORTADMINPANEL_SETTINGS_DESCRIPTION"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                >    
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field
+                    name="kluconsportabout"
+                    type="radio"
+                    label="MOD_KLUCONSPORTADMINPANEL_ABOUT_LABEL"
+                    description="MOD_KLUCONSPORTADMINPANEL_ABOUT_DESCRIPTION"
+                    default="1"
+                    layout="joomla/form/field/radio/switcher"
+                >    
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+            </fieldset>
+             <fieldset name="advanced">
+                <field
+                    name="layout"
+                    type="modulelayout"
+                    label="JFIELD_ALT_LAYOUT_LABEL"
+                    class="custom-select"
+                />
+                <field
+                    name="moduleclass_sfx"
+                    type="textarea"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    rows="3"
+                />
+                <field
+                    name="cache"
+                    type="list"
+                    label="COM_MODULES_FIELD_CACHING_LABEL"
+                    default="0"
+                >
+                    <option value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+                <field
+                    name="cache_time"
+                    type="number"
+                    label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                    default="0"
+                />
+                <field
+                    name="cachemode"
+                    type="hidden"
+                    default="itemid"
+                >
+                    <option value="itemid"></option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

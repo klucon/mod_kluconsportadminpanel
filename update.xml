@@ -1,0 +1,25 @@
+<updates>
+    <update>
+        <name>Klucon Sport Admin panel</name>
+        <description>Klucon Update</description>
+        <element>mod_kluconsportadminpanel</element>
+        <type>module</type>
+        <version>1.0.0</version>
+        <changelogurl>https://build.klucon.cz/changelog.xml</changelogurl>
+        
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/klucon/mod_kluconsportadminpanel/archive/1.0.0.zip</downloadurl>
+        </downloads>
+        
+        <maintainer>Klucon</maintainer>
+        <maintainerurl>https://www.klucon.cz</maintainerurl>
+        <section>Updates</section>
+        <targetplatform name="joomla" version="4.0"/>
+        <client>administrator</client>
+        <folder></folder>
+    </update>
+</updates>
